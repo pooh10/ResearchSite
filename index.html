@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReflectAI — Research Portfolio</title>
+    <meta name="description" content="AI-assisted journaling research by Pujan Pokharel with Dr. Tim Gorichanaz at Drexel University. Study design, results, and materials.">
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="ReflectAI — Research Portfolio">
+    <meta property="og:description" content="AI-assisted journaling research by Pujan Pokharel with Dr. Tim Gorichanaz at Drexel University. Study design, results, and materials.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/hero.png">
+    <meta property="og:image:alt" content="ReflectAI research hero">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <!-- Preload hero image -->
+    <link rel="preload" as="image" href="assets/img/hero.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="nav" aria-label="Primary">
+            <div class="container nav-container">
+                <a href="#top" class="nav-logo">ReflectAI</a>
+                
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="#abstract" class="nav-link">Abstract</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#study" class="nav-link">Study</a></li>
+                    <li><a href="#results" class="nav-link">Results</a></li>
+                    <li><a href="#app" class="nav-link">The App</a></li>
+                    <li><a href="#downloads" class="nav-link">Downloads</a></li>
+                    <li><a href="#references" class="nav-link">References</a></li>
+                    <li><a href="https://reflect-ai-2-932u.vercel.app" target="_blank" rel="noopener noreferrer" class="nav-cta">Open App</a></li>
+                    <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="top" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>ReflectAI</h1>
+                    <p class="hero-subtitle">AI-assisted journaling to support emotional awareness and reflective practice</p>
+                    <p class="hero-byline">Research by Pujan Pokharel • Advisor: Dr. Tim Gorichanaz • Drexel University</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#results" class="btn btn-primary">Jump to Results</a>
+                        <a href="#study" class="btn btn-ghost">How we ran the study</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="assets/img/hero.png" alt="" role="presentation" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <!-- Abstract Section -->
+        <section id="abstract" class="section">
+            <div class="container">
+                <h2>Abstract</h2>
+                <p>
+                    ReflectAI is a prototype journaling platform that integrates AI to encourage emotional awareness and reflective practice. 
+                    In collaboration with Drexel University, we conducted a longitudinal study with six participants over 10–14 days. 
+                    Participants journaled regularly with AI-generated prompts, completing pre- and post-surveys as well as optional interviews. 
+                    Findings indicate that ReflectAI reduced blank-page anxiety, fostered deeper reflection, and provided supportive, non-judgmental guidance. 
+                    Quantitative measures showed a slight increase in self-reported confidence in emotional understanding, while qualitative feedback highlighted usability and opportunities for improvement. 
+                    This research offers early evidence that AI can meaningfully support personal reflection and emotional growth, laying the groundwork for future studies in digital journaling and human–AI interaction.
+                </p>
+                <p class="muted">Keywords: AI, journaling, reflection, emotional awareness, human–AI interaction</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About the Research</h2>
+                
+                <div class="grid two">
+                    <div class="card">
+                        <h3>Motivation</h3>
+                        <ul>
+                            <li>Reduce blank-page anxiety in journaling</li>
+                            <li>Encourage deeper "why" and "so-what" reflection</li>
+                            <li>Sustain consistent reflective practice</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Contributions</h3>
+                        <ul>
+                            <li>Prototype AI-assisted journaling app</li>
+                            <li>Longitudinal study with n=6 participants</li>
+                            <li>Early evidence on emotional awareness and usability</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="team-subsection">
+                    <h3>Research Team</h3>
+                    
+                    <div class="grid two">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/img/pujan-pokharel.jpg" alt="Pujan Pokharel - Research Student" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h4>Pujan Pokharel</h4>
+                                <p class="member-title">Research Student</p>
+                                <p class="member-affiliation">Drexel University</p>
+                                <p class="member-bio">
+                                    Undergraduate researcher focused on human-computer interaction and AI-assisted tools for personal growth. 
+                                    Led the design, development, and evaluation of ReflectAI, conducting user studies and analyzing qualitative and quantitative data.
+                                </p>
+                                <div class="member-expertise">
+                                    <span class="expertise-tag">HCI</span>
+                                    <span class="expertise-tag">AI/ML</span>
+                                    <span class="expertise-tag">UX Research</span>
+                                    <span class="expertise-tag">Journaling</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/img/tim-gorichanaz.png" alt="Dr. Tim Gorichanaz - Research Advisor" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h4>Dr. Tim Gorichanaz</h4>
+                                <p class="member-title">Research Advisor</p>
+                                <p class="member-affiliation">Drexel University</p>
+                                <p class="member-bio">
+                                    Assistant Professor in the College of Computing & Informatics, specializing in information behavior, 
+                                    human-computer interaction, and the intersection of technology and human experience. 
+                                    Provided guidance on research methodology and theoretical framework.
+                                </p>
+                                <div class="member-expertise">
+                                    <span class="expertise-tag">Information Science</span>
+                                    <span class="expertise-tag">HCI</span>
+                                    <span class="expertise-tag">Research Methods</span>
+                                    <span class="expertise-tag">Digital Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Design Section -->
+        <section id="study" class="section">
+            <div class="container">
+                <h2>Study Design</h2>
+                
+                <!-- Stats Tiles -->
+                <div class="study-section">
+                    <div class="grid three">
+                        <div class="stat-tile">
+                            <div class="stat-number" data-counter="6">6</div>
+                            <div class="stat-label">Participants</div>
+                        </div>
+                        <div class="stat-tile">
+                            <div class="stat-number" data-counter="10">10</div>
+                            <div class="stat-label">Avg. Days</div>
+                        </div>
+                        <div class="stat-tile">
+                            <div class="stat-number" data-counter="23">23</div>
+                            <div class="stat-label">Journals Logged</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Key Metrics -->
+                <div class="study-section">
+                    <div class="grid three">
+                        <div class="stat-tile">
+                            <div class="stat-number">3.67</div>
+                            <div class="stat-label">Avg. Openness (Pre)</div>
+                        </div>
+                        <div class="stat-tile">
+                            <div class="stat-number">3.83</div>
+                            <div class="stat-label">Avg. Confidence (Post)</div>
+                        </div>
+                        <div class="stat-tile">
+                            <div class="stat-number">+0.17</div>
+                            <div class="stat-label">Net Change in Awareness</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Protocol -->
+                <div class="study-section">
+                    <div class="card">
+                        <h3>Protocol</h3>
+                        <ol>
+                            <li>Onboarding + Pre-survey</li>
+                            <li>Journaling for 10-14 days</li>
+                            <li>Post-survey + optional interview</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <!-- Usage Frequency -->
+                <div class="study-section">
+                    <div class="card">
+                        <h3>Usage Frequency</h3>
+                        <div class="usage-breakdown">
+                            <div class="usage-item">
+                                <span class="usage-count">3</span>
+                                <span class="usage-label">participants used 4-5 times</span>
+                            </div>
+                            <div class="usage-item">
+                                <span class="usage-count">1</span>
+                                <span class="usage-label">participant used 2-3 times</span>
+                            </div>
+                            <div class="usage-item">
+                                <span class="usage-count">1</span>
+                                <span class="usage-label">participant used 3 times</span>
+                            </div>
+                            <div class="usage-item">
+                                <span class="usage-count">1</span>
+                                <span class="usage-label">participant used more than 5 times</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Measures -->
+                <div class="study-section">
+                    <div class="measures">
+                        <h3>Measures</h3>
+                        <p class="muted">Frequency, minutes per session, emotional awareness, reflection depth, usability</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="section">
+            <div class="container">
+                <h2>Results</h2>
+                
+                <!-- Summary -->
+                <div class="results-summary">
+                    <p>Across six participants, ReflectAI was used most frequently on phone/tablet devices, with an average of 4–5 sessions per participant over the study period. Average openness to reflection before the study was 3.67, and average self-reported confidence in understanding emotions after using the app was 3.83, indicating a slight positive change. Participants reported that ReflectAI helped them organize thoughts, provided clear prompts, and offered a supportive space for emotional exploration. Common improvement suggestions included enhanced visual design, easier access to past reflections, and more customizable prompts.</p>
+                    <div class="results-cta">
+                        <a href="https://reflect-ai-2-932u.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Try the App</a>
+                    </div>
+                </div>
+                
+                <div class="grid two">
+                    <div class="chart-container">
+                        <h3>Usage & Habits</h3>
+                        <div id="chart-usage" class="chart" role="img" aria-label="Bar chart showing journal usage patterns per participant">
+                            <img src="assets/img/usage.svg" alt="Usage frequency during study" style="width: 100%; height: auto; max-width: 100%;">
+                        </div>
+                    </div>
+                    
+                    <div class="chart-container">
+                        <h3>Emotional Awareness</h3>
+                        <div id="chart-awareness" class="chart" role="img" aria-label="Bar chart showing pre and post emotional awareness scores per participant">
+                            <img src="assets/img/awareness.svg" alt="Emotional awareness: pre vs post" style="width: 100%; height: auto; max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="themes">
+                    <h3>Qualitative Themes</h3>
+                    
+                    <div class="themes-section">
+                        <h4>What Participants Liked Most</h4>
+                        <ul id="themes-positive">
+                            <li>
+                                <div class="quote">"Clear and targeted AI prompts helped me organize messy thoughts into clarity."</div>
+                                <div class="author">— Participant 2</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Felt like 'therapist-like' guidance without judgment - very supportive."</div>
+                                <div class="author">— Participant 4</div>
+                            </li>
+                            <li>
+                                <div class="quote">"The ease of use and simple interface made journaling less intimidating."</div>
+                                <div class="author">— Participant 1</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Encouraged emotional awareness and reflection in a way I hadn't experienced before."</div>
+                                <div class="author">— Participant 5</div>
+                            </li>
+                            <li>
+                                <div class="quote">"The supportive and non-judgmental tone helped me explore difficult emotions."</div>
+                                <div class="author">— Participant 3</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Helped me organize thoughts and provided clear prompts for deeper reflection."</div>
+                                <div class="author">— Participant 6</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="themes-section">
+                        <h4>Suggestions for Improvement</h4>
+                        <ul id="themes-improvements">
+                            <li>
+                                <div class="quote">"Would love better visual design with a more decorative notebook feel."</div>
+                                <div class="author">— Participant 1</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Need easier access to read past reflections - would help track my growth over time."</div>
+                                <div class="author">— Participant 4</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Customizable AI prompts would make the experience more personal and relevant."</div>
+                                <div class="author">— Participant 3</div>
+                            </li>
+                            <li>
+                                <div class="quote">"Offline mode would be great for journaling without internet connection."</div>
+                                <div class="author">— Participant 5</div>
+                            </li>
+                            <li>
+                                <div class="quote">"A search function for past entries would help me find specific reflections when needed."</div>
+                                <div class="author">— Participant 6</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discussion Section -->
+        <section id="discussion" class="section">
+            <div class="container">
+                <h2>Discussion</h2>
+                
+                <div class="grid three">
+                    <div class="card">
+                        <h3>Interpretation</h3>
+                        <p>
+                            These findings suggest that AI can play a meaningful role in supporting reflective practice. 
+                            While modest in scale, the results align with prior work on expressive writing and digital journaling, 
+                            providing a foundation for future exploration of human–AI interaction in personal growth.
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Limitations</h3>
+                        <ul>
+                            <li>Small sample size (n=6)</li>
+                            <li>Short study duration (10-14 days)</li>
+                            <li>Self-reported measures</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Future Work</h3>
+                        <ul>
+                            <li>Better visual design (decorative notebook feel)</li>
+                            <li>Ability to access and read past reflections more easily</li>
+                            <li>Customizable AI prompts</li>
+                            <li>Offline mode for journaling without internet</li>
+                            <li>Search function for past entries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section id="conclusion" class="section">
+            <div class="container">
+                <h2>Conclusion</h2>
+                <p>
+                    ReflectAI demonstrates the potential of AI-assisted journaling to reduce blank-page anxiety, promote deeper reflection, 
+                    and provide supportive guidance for emotional awareness. Although the study was small in scale, participants consistently 
+                    reported that the app encouraged clarity and offered value in reflective practice. These findings highlight both the promise 
+                    of AI in personal growth contexts and the importance of continued research into usability, customization, and long-term impact. 
+                    Future work will refine the design, expand participant diversity, and explore how AI can complement—not replace—human support 
+                    in reflective and therapeutic practices.
+                </p>
+            </div>
+        </section>
+
+        <!-- The App Section -->
+        <section id="app" class="section section-alt">
+            <div class="container">
+                <h2>
+                    The App
+                    
+                </h2>
+                
+                <div class="grid two">
+                    <div class="app-image">
+                        <img src="assets/img/JournalEditor.jpg" alt="Journal Editor interface showing AI-assisted writing prompts" loading="lazy">
+                        <p class="caption">Journal Editor</p>
+                    </div>
+                    <div class="app-image">
+                        <img src="assets/img/SessionSummary.jpeg" alt="Session Summary showing reflection insights and patterns" loading="lazy">
+                        <p class="caption">Session Summary</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>Implementation (tech overview)</h3>
+                    <ul>
+                        <li><strong>Prototype:</strong> React + Firebase + Cohere/OpenAI</li>
+                        <li><strong>This site:</strong> HTML + CSS + vanilla JS</li>
+                        <li><strong>Charts:</strong> Lightweight SVG (no external libraries)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Acknowledgments Section -->
+        <section id="acknowledgments" class="section">
+            <div class="container">
+                <h2>Acknowledgments</h2>
+                <p>
+                    This research was conducted with guidance from Dr. Tim Gorichanaz at Drexel University. 
+                    Special thanks to the study participants for generously sharing their time and reflections.
+                </p>
+            </div>
+        </section>
+
+
+
+        <!-- Downloads Section -->
+        <section id="downloads" class="section">
+            <div class="container">
+                <h2>Downloads</h2>
+                
+                <div class="grid three">
+                    <a href="assets/data/Abstract.pdf" class="card download-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Abstract</h3>
+                        <p>Research abstract and methodology</p>
+                    </a>
+                    <a href="assets/data/pre_survey.csv" class="card download-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Pre-survey</h3>
+                        <p>Baseline participant data (CSV)</p>
+                    </a>
+                    <a href="assets/data/post_survey.csv" class="card download-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Post-survey</h3>
+                        <p>Post-study participant data (CSV)</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references" class="section">
+            <div class="container">
+                <h2>References</h2>
+                <ul class="references">
+                    <li>
+                        Pennebaker, J. W., & Chung, C. K. (2011). Expressive writing: Connections to physical and mental health. 
+                        In H. S. Friedman (Ed.), <em>The Oxford Handbook of Health Psychology</em>. Oxford University Press.
+                    </li>
+                    <li>
+                        Suler, J. (2016). The psychology of texting: A new digital landscape. <em>Cyberpsychology, Behavior, and Social Networking</em>, 19(7), 449–454.
+                    </li>
+                    <li>
+                        Chung, C. K., Pennebaker, J. W., & Stone, L. D. (2008). Emotional language and self-disclosure in online journals. 
+                        <em>CyberPsychology & Behavior</em>, 11(2), 217–223.
+                    </li>
+                    <li>
+                        Gorichanaz, T. (2019). Toward a theory of information and experience. <em>Journal of Documentation</em>, 75(6), 1226–1242.
+                    </li>
+                    <li>
+                        OpenAI (2023). GPT models for text generation. Retrieved from <a href="https://openai.com" target="_blank" rel="noopener noreferrer">https://openai.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year">2024</span> ReflectAI • Built by Pujan Pokharel. This site presents research conducted at Drexel University with advisor Dr. Tim Gorichanaz.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="to-top" class="to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m18 15-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

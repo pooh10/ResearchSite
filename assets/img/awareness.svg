@@ -1,0 +1,81 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+    <style>
+      .chart-text { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; }
+      .axis-text { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; fill: #64748b; }
+      .title-text { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 16px; font-weight: 600; fill: #1e293b; }
+      [data-theme="dark"] .axis-text { fill: #94a3b8; }
+      [data-theme="dark"] .title-text { fill: #e6e9ef; }
+    </style>
+ </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="transparent"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title-text">Emotional Awareness: Pre vs Post</text>
+  
+  <!-- Chart area -->
+  <g transform="translate(100, 80)">
+    <!-- Y-axis -->
+    <line x1="0" y1="0" x2="0" y2="250" stroke="#64748b" stroke-width="2"/>
+    <text x="-10" y="0" text-anchor="end" class="axis-text">5.0</text>
+    <text x="-10" y="50" text-anchor="end" class="axis-text">4.0</text>
+    <text x="-10" y="100" text-anchor="end" class="axis-text">3.0</text>
+    <text x="-10" y="150" text-anchor="end" class="axis-text">2.0</text>
+    <text x="-10" y="200" text-anchor="end" class="axis-text">1.0</text>
+    <text x="-10" y="250" text-anchor="end" class="axis-text">0.0</text>
+    
+    <!-- X-axis -->
+    <line x1="0" y1="250" x2="600" y2="250" stroke="#64748b" stroke-width="2"/>
+    
+    <!-- Participant bars -->
+    <!-- P1: Pre 3.5, Post 3.8 -->
+    <rect x="30" y="75" width="25" height="175" fill="#3b82f6" rx="2"/>
+    <rect x="65" y="60" width="25" height="190" fill="#8b5cf6" rx="2"/>
+    <text x="47.5" y="270" text-anchor="middle" class="axis-text">P1</text>
+    
+    <!-- P2: Pre 3.8, Post 4.0 -->
+    <rect x="120" y="50" width="25" height="200" fill="#3b82f6" rx="2"/>
+    <rect x="155" y="30" width="25" height="220" fill="#8b5cf6" rx="2"/>
+    <text x="137.5" y="270" text-anchor="middle" class="axis-text">P2</text>
+    
+    <!-- P3: Pre 3.2, Post 3.5 -->
+    <rect x="210" y="90" width="25" height="160" fill="#3b82f6" rx="2"/>
+    <rect x="245" y="75" width="25" height="175" fill="#8b5cf6" rx="2"/>
+    <text x="227.5" y="270" text-anchor="middle" class="axis-text">P3</text>
+    
+    <!-- P4: Pre 4.0, Post 4.2 -->
+    <rect x="300" y="30" width="25" height="220" fill="#3b82f6" rx="2"/>
+    <rect x="335" y="15" width="25" height="235" fill="#8b5cf6" rx="2"/>
+    <text x="317.5" y="270" text-anchor="middle" class="axis-text">P4</text>
+    
+    <!-- P5: Pre 3.5, Post 3.9 -->
+    <rect x="390" y="75" width="25" height="175" fill="#3b82f6" rx="2"/>
+    <rect x="425" y="55" width="25" height="195" fill="#8b5cf6" rx="2"/>
+    <text x="407.5" y="270" text-anchor="middle" class="axis-text">P5</text>
+    
+    <!-- P6: Pre 3.8, Post 4.0 -->
+    <rect x="480" y="50" width="25" height="200" fill="#3b82f6" rx="2"/>
+    <rect x="515" y="30" width="25" height="220" fill="#8b5cf6" rx="2"/>
+    <text x="497.5" y="270" text-anchor="middle" class="axis-text">P6</text>
+    
+    <!-- Y-axis label -->
+    <text x="-20" y="125" text-anchor="middle" class="axis-text" transform="rotate(-90, -20, 125)">Awareness Score (1-5 scale)</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(100, 350)">
+    <rect x="0" y="0" width="12" height="12" fill="#3b82f6" rx="2"/>
+    <text x="20" y="10" class="axis-text">Pre-study</text>
+    <rect x="100" y="0" width="12" height="12" fill="#8b5cf6" rx="2"/>
+    <text x="120" y="10" class="axis-text">Post-study</text>
+  </g>
+  
+  <!-- Summary stats -->
+  <g transform="translate(500, 350)">
+    <text x="0" y="0" class="axis-text">Avg Pre: 3.67</text>
+    <text x="0" y="20" class="axis-text">Avg Post: 3.83</text>
+    <text x="0" y="40" class="axis-text">Net Change: +0.17</text>
+  </g>
+</svg>

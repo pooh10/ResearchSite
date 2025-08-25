@@ -1,0 +1,133 @@
+{
+  "participants": [
+    {
+      "id": "P1",
+      "times_used": 4,
+      "avg_minutes_per_session": 15
+    },
+    {
+      "id": "P2",
+      "times_used": 5,
+      "avg_minutes_per_session": 20
+    },
+    {
+      "id": "P3",
+      "times_used": 3,
+      "avg_minutes_per_session": 18
+    },
+    {
+      "id": "P4",
+      "times_used": 2,
+      "avg_minutes_per_session": 25
+    },
+    {
+      "id": "P5",
+      "times_used": 3,
+      "avg_minutes_per_session": 22
+    },
+    {
+      "id": "P6",
+      "times_used": 6,
+      "avg_minutes_per_session": 16
+    }
+  ],
+  "awareness_scores": [
+    {
+      "id": "P1",
+      "pre": 3.5,
+      "post": 3.8
+    },
+    {
+      "id": "P2",
+      "pre": 3.8,
+      "post": 4.0
+    },
+    {
+      "id": "P3",
+      "pre": 3.2,
+      "post": 3.5
+    },
+    {
+      "id": "P4",
+      "pre": 4.0,
+      "post": 4.2
+    },
+    {
+      "id": "P5",
+      "pre": 3.5,
+      "post": 3.9
+    },
+    {
+      "id": "P6",
+      "pre": 3.8,
+      "post": 4.0
+    }
+  ],
+  "qualitative_themes": [
+    {
+      "quote": "Clear and targeted AI prompts helped me organize messy thoughts into clarity.",
+      "author": "Participant 2"
+    },
+    {
+      "quote": "Felt like 'therapist-like' guidance without judgment - very supportive.",
+      "author": "Participant 4"
+    },
+    {
+      "quote": "The ease of use and simple interface made journaling less intimidating.",
+      "author": "Participant 1"
+    },
+    {
+      "quote": "Encouraged emotional awareness and reflection in a way I hadn't experienced before.",
+      "author": "Participant 5"
+    },
+    {
+      "quote": "The supportive and non-judgmental tone helped me explore difficult emotions.",
+      "author": "Participant 3"
+    },
+    {
+      "quote": "Helped me organize thoughts and provided clear prompts for deeper reflection.",
+      "author": "Participant 6"
+    },
+    {
+      "quote": "The app helped me organize thoughts and provided a supportive space for emotional exploration.",
+      "author": "Participant 2"
+    },
+    {
+      "quote": "Would love better visual design with a more decorative notebook feel.",
+      "author": "Participant 1"
+    },
+    {
+      "quote": "Need easier access to read past reflections - would help track my growth over time.",
+      "author": "Participant 4"
+    },
+    {
+      "quote": "Customizable AI prompts would make the experience more personal and relevant.",
+      "author": "Participant 3"
+    },
+    {
+      "quote": "Offline mode would be great for journaling without internet connection.",
+      "author": "Participant 5"
+    },
+    {
+      "quote": "A search function for past entries would help me find specific reflections when needed.",
+      "author": "Participant 6"
+    }
+  ],
+  "study_stats": {
+    "participants": 6,
+    "avg_days": 10,
+    "journals_logged": 23
+  },
+  "key_metrics": {
+    "avg_openness_pre": 3.67,
+    "avg_confidence_post": 3.83,
+    "avg_awareness_increase": 3.83,
+    "net_change_emotional_awareness": 0.17,
+    "usage_frequency": {
+      "4_5_times": 3,
+      "2_3_times": 1,
+      "3_times": 1,
+      "more_than_5_times": 1
+    }
+  }
+}

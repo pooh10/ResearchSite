@@ -1,0 +1,29 @@
+ReflectAI Research Poster
+
+Conference Presentation Materials
+
+Title: AI-Assisted Journaling for Emotional Awareness and Reflective Practice
+
+Authors: Pujan Pokharel, Dr. Tim Gorichanaz
+Institution: Drexel University
+
+Research Question: How can AI assistance improve journaling engagement and emotional awareness?
+
+Study Design:
+- Prototype: React + Firebase + Cohere/OpenAI
+- Participants: n=6, 10-14 days
+- Measures: Usage patterns, emotional awareness, qualitative feedback
+
+Key Findings:
+1. Reduced blank-page anxiety through contextual prompts
+2. Improved emotional awareness scores (avg +1.5 points)
+3. Increased reflection depth and consistency
+4. Positive user experience with AI suggestions
+
+Future Work:
+- Longer study duration
+- Personalized prompt generation
+- Privacy-preserving analytics
+- Integration with mental health apps
+
+[This is a placeholder file. Replace with actual PDF poster.]

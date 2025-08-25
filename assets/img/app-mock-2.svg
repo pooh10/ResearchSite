@@ -1,0 +1,67 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- App background -->
+  <rect width="1200" height="800" fill="url(#appBg)" rx="16"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="rgba(255,255,255,0.05)" rx="16"/>
+  <text x="40" y="50" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="600">Session Summary</text>
+  
+  <!-- Date -->
+  <text x="1100" y="50" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" text-anchor="end">March 15, 2024</text>
+  
+  <!-- Stats Grid -->
+  <rect x="40" y="120" width="360" height="120" fill="rgba(96, 165, 250, 0.1)" rx="12" stroke="rgba(96, 165, 250, 0.3)" stroke-width="2"/>
+  <text x="60" y="150" fill="#60a5fa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Session Stats</text>
+  <text x="60" y="180" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Duration: 18 minutes</text>
+  <text x="60" y="205" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Words written: 247</text>
+  <text x="60" y="230" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Emotional depth: High</text>
+  
+  <rect x="420" y="120" width="360" height="120" fill="rgba(167, 139, 250, 0.1)" rx="12" stroke="rgba(167, 139, 250, 0.3)" stroke-width="2"/>
+  <text x="440" y="150" fill="#a78bfa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Emotional Insights</text>
+  <text x="440" y="180" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Primary emotion: Overwhelm</text>
+  <text x="440" y="205" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Secondary: Anxiety</text>
+  <text x="440" y="230" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Mood shift: +2 points</text>
+  
+  <rect x="800" y="120" width="360" height="120" fill="rgba(255,255,255,0.05)" rx="12" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="820" y="150" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Reflection Quality</text>
+  <text x="820" y="180" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Depth: 8/10</text>
+  <text x="820" y="205" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Self-awareness: 9/10</text>
+  <text x="820" y="230" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Action-oriented: 7/10</text>
+  
+  <!-- Key Themes -->
+  <rect x="40" y="280" width="1120" height="200" fill="rgba(255,255,255,0.02)" rx="12" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="60" y="320" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600">Key Themes Identified</text>
+  
+  <circle cx="80" cy="360" r="6" fill="#60a5fa"/>
+  <text x="100" y="365" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Boundary setting challenges</text>
+  
+  <circle cx="80" cy="390" r="6" fill="#a78bfa"/>
+  <text x="100" y="395" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Fear of disappointing others</text>
+  
+  <circle cx="80" cy="420" r="6" fill="#60a5fa"/>
+  <text x="100" y="425" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Need for better self-care</text>
+  
+  <circle cx="80" cy="450" r="6" fill="#a78bfa"/>
+  <text x="100" y="455" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Recognition of personal limits</text>
+  
+  <!-- AI Suggestions -->
+  <rect x="40" y="520" width="1120" height="200" fill="rgba(96, 165, 250, 0.05)" rx="12" stroke="rgba(96, 165, 250, 0.2)" stroke-width="1"/>
+  <text x="60" y="560" fill="#60a5fa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600">AI Suggestions for Next Session</text>
+  
+  <text x="60" y="590" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">• Explore your relationship with saying "no"</text>
+  <text x="60" y="615" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">• Reflect on what self-care means to you</text>
+  <text x="60" y="640" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">• Consider writing about a time you successfully set boundaries</text>
+  <text x="60" y="665" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">• Practice gratitude for recognizing your limits</text>
+  <text x="60" y="690" fill="#e6e9ef" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">• Plan one small action to prioritize yourself this week</text>
+  
+  <!-- Footer -->
+  <rect x="40" y="760" width="1120" height="20" fill="rgba(255,255,255,0.02)" rx="6"/>
+  <text x="60" y="775" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Session completed • Data saved securely • Ready for next reflection</text>
+</svg>
